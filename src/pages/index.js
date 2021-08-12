@@ -1,7 +1,6 @@
-import { Box, Flex } from "@chakra-ui/react";
-import Image from "next/image";
-import logo from "../../public/logo.png";
-import DebocheButton from "../components/DebocheButton";
+import { Flex } from '@chakra-ui/react';
+import Image from 'next/image';
+import logo from '../../public/logo.png';
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
     >
       <Flex direction="column" align="center">
         <Image src={logo} width="270" height="270" />
-        <DebocheButton />
       </Flex>
     </Flex>
   );
